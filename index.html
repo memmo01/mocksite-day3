@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>mock site 3</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Mukta|Open+Sans" rel="stylesheet">
+</head>
+<style>
+    body,
+    html {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    header {
+        background-image: url("./images/tomato.jpg");
+        width: 100%;
+        padding-bottom: 400px;
+
+    }
+
+    nav {
+        display: inline-block;
+        background-color: white;
+        padding: 10px;
+        width: 100%;
+
+    }
+
+    #navTitle {
+        font-size: 100px;
+        padding-left: 20px;
+        font-family: 'Fredericka the Great', cursive;
+    }
+
+    img {
+        color: rgba(246, 246, 233, 1)
+    }
+
+    #menu {
+
+        float: right;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 50px;
+        padding: 40px 40px 0 0;
+    }
+
+    #menu i {
+        padding: 0 20px 0 20px;
+    }
+
+    #slogan {
+        background-color: rgba(163, 158, 158, .6);
+        color: white;
+        width: 40%;
+        margin: 400px 0 0 25%;
+        text-align: center;
+        font-size: 50px;
+        padding: 50px;
+        font-family: 'Fredericka the Great', cursive;
+    }
+
+    hr {
+        width: 15%;
+        border: 2px solid red;
+        margin: 90px 0 90px 42.5%;
+    }
+
+    section h1 {
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 100px;
+        font-weight: 500;
+        color: red;
+    }
+
+    section h1,
+    h2,
+    p {
+        text-align: center;
+    }
+
+    section h1 {
+        margin-top: 200px;
+    }
+
+    section p {
+        width: 85%;
+        margin-left: 7.5%;
+        font-size: 50px;
+        font-family: 'Mukta', sans-serif;
+        color: grey;
+        font-weight: 500;
+        padding: 40px 0 40px 0;
+    }
+
+    section li {
+        text-align: center;
+    }
+
+    #getToKnow li img {
+        margin-top: 100px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        border: 6px solid white;
+
+    }
+
+
+
+    #getToKnow h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        padding: 40px 0 40px 0;
+
+    }
+
+    #quotePic {
+
+        background-image: url("./images/cook.jpg");
+        color: grey;
+        height: 1000px;
+        background: linear-gradient( rgba(20, 20, 20, .4),
+        rgba(20, 20, 20, .4)), url("./images/cook.jpg");
+        font-family: 'Open Sans', sans-serif;
+        background-position: bottom center;
+        text-align: center;
+
+    }
+
+    #author {
+        margin-left: 50%;
+        font-size: 25px;
+    }
+
+    #quotePic i {
+        padding-top: 100px;
+        font-size: 100px;
+        color: white;
+    }
+
+    #summary img {
+        width: 90%;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    footer {
+        background-color: rgba(45, 45, 45, 1);
+        margin-top: 100px;
+        padding: 30px;
+    }
+
+    footer h2 {
+
+        font-family: 'Fredericka the Great', cursive;
+        color: white;
+        font-size: 80px;
+        margin-top: 50px;
+    }
+
+    footer hr {
+        width: 80%;
+        margin: 40px 0 40px 10%;
+        border-color: white;
+    }
+
+    footer li,
+    p {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    footer p {
+
+        line-height: 50px;
+        font-size: 20px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    footer ul {
+        text-align: left;
+        padding: 0;
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    footer i {
+        padding-right: 20px;
+    }
+</style>
+
+<body>
+    <header>
+
+        <nav>
+
+            <!-- <img src="./images/food.png" alt="logo" style="height:100px; width:100px;"> -->
+            <span id="navTitle">Foodi</span>
+
+            <div id="menu">
+                Menu<i class="fas fa-bars"></i>
+            </div>
+
+        </nav>
+
+        <div id="slogan">
+            <h1>Simply Delicious</h1>
+        </div>
+    </header>
+    <section id="getToKnow">
+
+        <h1>Get to know us!</h1>
+        <p>We are the largest provider of food tips on the East Coast!</p>
+
+        <hr/>
+
+
+        <ul>
+            <li>
+                <img src="./images/foodsnip.jpg" alt="research">
+                <h2>Want better Instagram Pictures?</h2>
+                <p>We will show you how to organize food to impress all of your friends on social media. Wether it is breakfast,
+                    lunch, or dinner...We got you covered!</p>
+            </li>
+            <li>
+                <img src="./images/chef.jpg" alt="research">
+                <h2>Go from Novice to Professional</h2>
+                <p>With out resources we can help you learn the cooking techniques to help make you the skilled chef you've
+                    wanted to be. Now you can be the one to show off at family gatherings!</p>
+            </li>
+            <li>
+                <img src="./images/food2.jpg" alt="research">
+                <h2>Tired of Scouring the Internet for Recipies?</h2>
+                <p>Our recipe database makes it easy for you to find delicious food to make based on your taste buds and
+                    skill level. Say goodbye to long hours searching for good foods to make! </p>
+            </li>
+        </ul>
+    </section>
+    <hr>
+    <section id="quotePic">
+        <i class="fas fa-comment"></i>
+        <p> -Foodi is life changing. I now cook more efficiently allowing my to save time and money!</p>
+        <span id="author">-M. Lemon</span>
+
+    </section>
+    <section id="summary">
+        <h1>Our Resources..</h1>
+        <p>We work with the best professionals in the business to help provide top quality recipies to help you at home or
+            with you business</p>
+        <hr/>
+        <ul>
+            <li>
+                <img src="./images/rest.JPG" alt="idk">
+            </li>
+            <li>
+                <img src="./images/ingred.JPG" alt="idk">
+            </li>
+            <li>
+                <img src="./images/family.JPG" alt="idk">
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <article>
+            <h2>Have Suggestions?</h2>
+            <hr/>
+            <p>We are always looking to improve! Please feel free to contact us anytime with your thoughts. Here at Foodi
+                we believe in constructive criticism in order to become better</p>
+
+        </article>
+        <article>
+            <h2>Contact us</h2>
+            <hr/>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i>address</li>
+                <li><i class="fas fa-phone-square"></i>phone</li>
+                <li><i class="fas fa-envelope-square"></i>email</li>
+            </ul>
+        </article>
+    </footer>
+</body>
+
+</html>
