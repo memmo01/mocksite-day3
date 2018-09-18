@@ -4,182 +4,187 @@ html {
   margin: 0;
   overflow-x: hidden;
 }
-@media (min-width: 600px) {
-  header {
-    background-image: url("./images/tomato.jpg");
-    width: 100%;
-    padding-bottom: 400px;
-  }
+header {
+  background-image: url("./images/tomato.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 
-  nav {
-    display: inline-block;
-    background-color: white;
-    padding: 10px;
-    width: 100%;
-  }
+  padding-bottom: 200px;
+}
 
-  #navTitle {
-    font-size: 100px;
-    padding-left: 20px;
-    font-family: "Fredericka the Great", cursive;
-  }
+nav {
+  display: inline-block;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+}
 
-  img {
-    color: rgba(246, 246, 233, 1);
-  }
+#navTitle {
+  font-size: 40px;
+  padding-left: 20px;
+  font-family: "Fredericka the Great", cursive;
+}
 
-  #menu {
-    float: right;
-    font-family: "Fredericka the Great", cursive;
-    font-size: 50px;
-    padding: 40px 40px 0 0;
-  }
+img {
+  color: rgba(246, 246, 233, 1);
+}
 
-  #menu i {
-    padding: 0 20px 0 20px;
-  }
+#menu {
+  float: right;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 20px;
+  padding: 10px 10px 0 0;
+}
 
-  #slogan {
-    background-color: rgba(163, 158, 158, 0.6);
-    color: white;
-    width: 40%;
-    margin: 400px 0 0 25%;
-    text-align: center;
-    font-size: 50px;
-    padding: 50px;
-    font-family: "Fredericka the Great", cursive;
-  }
+#menu i {
+  padding: 0 10px 0 10px;
+}
 
-  hr {
-    width: 15%;
-    border: 2px solid red;
-    margin: 90px 0 90px 42.5%;
-  }
+#slogan {
+  background-color: rgba(163, 158, 158, 0.8);
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin: 100px 0 0 10%;
+  padding: 30px 0 30px 0;
+  font-size: 30px;
+  font-family: "Fredericka the Great", cursive;
+}
 
-  section h1 {
-    font-family: "Fredericka the Great", cursive;
-    font-size: 100px;
-    font-weight: 500;
-    color: red;
-  }
+hr {
+  width: 15%;
+  border: 2px solid red;
+  margin: 60px 0 60px 42.5%;
+}
 
-  section h1,
-  h2,
-  p {
-    text-align: center;
-  }
+section h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 50px;
+  font-weight: 500;
+  color: red;
+}
 
-  section h1 {
-    margin-top: 200px;
-  }
+section h1,
+h2,
+p {
+  text-align: center;
+}
 
-  section p {
-    width: 85%;
-    margin-left: 7.5%;
-    font-size: 50px;
-    font-family: "Mukta", sans-serif;
-    color: grey;
-    font-weight: 500;
-    padding: 40px 0 40px 0;
-  }
+section h1 {
+  margin-top: 50px;
+}
 
-  section li {
-    text-align: center;
-  }
+section p {
+  width: 85%;
+  margin-left: 7.5%;
+  font-size: 30px;
+  font-family: "Mukta", sans-serif;
+  color: grey;
+  font-weight: 500;
+  padding: 40px 0 40px 0;
+}
 
-  #getToKnow li img {
-    margin-top: 100px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border: 6px solid white;
-  }
+section li {
+  text-align: center;
+  width: 100%;
+}
 
-  #getToKnow h2 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-    padding: 40px 0 40px 0;
-  }
+#getToKnow li img {
+  margin-top: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 6px solid white;
+  width: 50%;
+}
 
-  #quotePic {
-    background-image: url("./images/cook.jpg");
-    color: grey;
-    height: 1000px;
-    background: linear-gradient(rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)),
-      url("./images/cook.jpg");
-    font-family: "Open Sans", sans-serif;
-    background-position: bottom center;
-    text-align: center;
-  }
+#getToKnow h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 40px 0 40px 0;
+}
 
-  #author {
-    margin-left: 50%;
-    font-size: 25px;
-  }
+#quotePic {
+  background-image: url("./images/cook.jpg");
+  color: grey;
+  height: 1000px;
+  background: linear-gradient(rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)),
+    url("./images/cook.jpg");
+  font-family: "Open Sans", sans-serif;
+  background-position: bottom center;
+  text-align: center;
+}
 
-  #quotePic i {
-    padding-top: 100px;
-    font-size: 100px;
-    color: white;
-  }
+#author {
+  margin-left: 50%;
+  font-size: 25px;
+}
 
-  #summary img {
-    width: 90%;
-    margin-top: 100px;
-    text-align: center;
-  }
+#quotePic i {
+  padding-top: 100px;
+  font-size: 100px;
+  color: white;
+}
 
-  footer {
-    background-color: rgba(45, 45, 45, 1);
-    margin-top: 100px;
-    padding: 30px;
-    color: white;
-  }
+#summary img {
+  width: 90%;
+  margin-top: 100px;
+  text-align: center;
+}
 
-  footer h2 {
-    font-family: "Fredericka the Great", cursive;
+footer {
+  background-color: rgba(45, 45, 45, 1);
+  margin-top: 100px;
+  padding: 30px;
+  color: white;
+}
 
-    font-size: 80px;
-    margin-top: 50px;
-  }
+footer h2 {
+  font-family: "Fredericka the Great", cursive;
 
-  footer hr {
-    width: 80%;
-    margin: 40px 0 40px 10%;
-    border-color: white;
-  }
+  font-size: 60px;
+  margin-top: 50px;
+}
 
-  footer ul {
-    text-align: center;
-    padding: 0;
-    color: white;
+footer hr {
+  width: 80%;
+  margin: 40px 0 40px 10%;
+  border-color: white;
+}
 
-    font-family: "Open Sans", sans-serif;
-  }
-  footer li {
-    font-size: 30px;
-    padding: 10px;
+footer ul {
+  text-align: center;
+  padding: 0;
+  color: white;
 
-    font-family: "Open Sans", sans-serif;
-  }
-  footer p {
-    line-height: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+footer li {
+  font-size: 20px;
+  padding: 10px;
 
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    width: 80%;
-    margin-left: 10%;
-  }
+  font-family: "Open Sans", sans-serif;
+}
+footer p {
+  line-height: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
 
-  footer i {
-    padding-right: 20px;
-  }
+footer i {
+  padding-right: 20px;
 }
 @media (min-width: 786px) {
   /* nav {
     background-color: transparent;
     color: white; */
   /* } */
+  header {
+    padding-bottom: 300px;
+  }
   #menu {
     float: right;
     font-family: "Fredericka the Great", cursive;
@@ -201,6 +206,11 @@ html {
     width: 85%;
     margin-left: 7.5%;
     font-size: 30px;
+  }
+  #slogan {
+    width: 40%;
+    margin-left: 30%;
+    padding: 50px 0 50px 0;
   }
   #quotePic {
     height: 800px;
@@ -236,5 +246,14 @@ html {
   #summary li {
     width: 40%;
     flex: 1;
+  }
+  footer li {
+    display: inline-flex;
+  }
+}
+@media (min-width: 900px) {
+  #getToKnow li img {
+    width: 200px;
+    height: 200px;
   }
 }
